@@ -1,0 +1,24 @@
+.Schach{
+    height: 800px;
+    background-color: rgb(158, 152, 145);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.Oben{
+    background-color: rgb(64, 70, 70);
+    right: 40%;
+    color: rgb(202, 197, 197);
+}
+.every{
+    display: flex;
+    flex-direction: column;
+}
+.Bilder{
+    border: 8px solid black;
+    height: 250px;
+}
+.Info{
+    border: 8px solid black;
+    height: 250px;
+}
