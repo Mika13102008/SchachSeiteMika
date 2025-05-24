@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Using Javascript</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Inhalt.css">
+</head>
+
+<body>
+    <br><br><br><br><br><br><br><br>
+    <div id="inhalt">
+        <h1>Hier ist ein Schach Spiel</h1>
+        <a href="spiel-men%C3%BC.html" target="_top"><img src="Bilder/neu.png" class="reset"></a>
+    </div>
+    <div id="idee">
+        <div id="inhalt">
+            <h3>Suche dir einen Freund/ Gegner und fangt an zu spielen</h3>
+            <div id="regeln">
+                <h2>Was geht leider nicht?</h2>
+                <div id="achtung">
+                    <ul>
+                        <li>Rochade geht leider</li>
+                        <li>Achtung drauf, ihr nicht mit dem Bauern gradeaus schlagt </li>
+                        <li>Wenn man Schach steht kann man trotsdem sich bewegen</li>
+                        <li>Man muss den König schlagen um zu gewinnen</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="gameboard" ></div>
+        <div class="bars">
+            <p class="turnbar"><span id="player"></span> ist nicht Amzug.</p>
+            <p class="infobar" id="info-display"></p>
+            <p class="errbar" id="err"></p>
+        </div>
+    </div>
+    
+
+    <script src="pieces.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
